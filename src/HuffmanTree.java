@@ -4,16 +4,16 @@ import java.util.*;
 
 public class HuffmanTree {
     public static class Node {
-        char character;
-        int frequency;
-        Node left = null, right = null;
+        public char character;
+        public int frequency;
+        public Node left = null, right = null;
 
-        Node(char character, int frequency) {
+        public Node(char character, int frequency) {
             this.character = character;
             this.frequency = frequency;
         }
 
-        Node(Node left, Node right) {
+        public Node(Node left, Node right) {
             this.frequency = left.frequency + right.frequency;
             this.left = left;
             this.right = right;

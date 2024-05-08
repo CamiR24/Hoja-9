@@ -34,4 +34,10 @@ public class HuffmanTree {
 
         return pq.poll();
     }
+
+    public static void buildHuffmanCodes(Node root, String string, Map<Character, String> huffmanCodes) {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'buildHuffmanCodes'");
+    }
+
 }

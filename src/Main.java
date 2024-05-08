@@ -27,10 +27,10 @@ public class Main {
             
             switch (opcion) {
                 case 1:
-                    comprimir(); // Llamar al método de compresión
+                    comprimir(reader); // Llamar al método de compresión
                     break;
                 case 2:
-                    descomprimir(); // Llamar al método de descompresión
+                    descomprimir(reader); // Llamar al método de descompresión
                     break;
                 case 3:
                     salir = true;
@@ -51,11 +51,11 @@ public class Main {
             System.out.println("Compresión y descompresión completadas con éxito.");
         }
 
-        public static void comprimir(){
+        public static void comprimir(ReaderFile reader){
 
         }
 
-        public static void descomprimir(){
+        public static void descomprimir(ReaderFile reader){
 
         }
     }
